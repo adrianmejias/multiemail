@@ -1,0 +1,66 @@
+.multiemail
+{
+	width: 450px;
+	padding: 5px;
+	text-overflow: auto;
+	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	line-height: 1.3em;
+	letter-spacing: -0.05em;
+	color: #333;
+}
+.multiemail ul
+{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.multiemail ul li
+{
+	font-size: 1.05em;
+	background-color: #3fb58e;
+	color: #fff;
+	cursor: pointer;
+	padding: 4px 5px;
+	margin-top: 5px;
+	margin-right: 5px;
+	border-radius: 5px;
+	float: left;
+	width: 200px;
+}
+.multiemail ul li span
+{
+	font-weight: 600;
+	float: right;
+	color: #fff;
+}
+.multiemail ul li:hover span
+{
+	font-weight: bold;
+}
+.multiemail-add
+{
+	padding: 5px;
+	cursor: pointer;
+}
+.multiemail-clearfix:after
+{
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+.multiemail-clearfix
+{
+	display: inline-block;
+}
+html[xmlns] .multiemail-clearfix
+{
+	display: block;
+}
+* html .multiemail-clearfix
+{
+	height: 1%;
+}
